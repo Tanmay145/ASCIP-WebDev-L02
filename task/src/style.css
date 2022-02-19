@@ -84,27 +84,37 @@ transition: 2s;
   color:ivory;
   font-size: 30px;
 }
-.fa{
+.social img{
+  display: inline;
+}
+.social img:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.instagram img{
+  height: 45px;
   padding: 5px;
-  font-size: 30px;
-  width: 33px;
-  text-align: center;
-  text-decoration: none;
+  width: 40px;
   margin: 7px 2px 0px;
-  border-radius: 50%;
-  color: white;
+  border-radius: 35%;
   
 }
-.fa-facebook:hover{
-    color: royalblue;
-    
+.facebook img{
+  height: 45px;
+  padding: 5px;
+  width: 40px;
+  margin: 7px 2px 0px;
+  border-radius: 55%;
+  
 }
-.fa-instagram:hover{
-   color: rgb(228, 10, 46);
+.twitter img{
+    height: 45px;
+    padding: 5px;
+    width: 40px;
+    margin: 7px 2px 0px;
+  
 }
-.fa-twitter:hover{
-   color: rgb(27, 140, 185);
-}
+
 
 .loader {
   width:50px;
